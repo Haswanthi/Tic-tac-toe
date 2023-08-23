@@ -67,10 +67,7 @@ function gameOver(gamewon){
 
 function declarewinner(who){
     document. querySelector(".endgame").style.display = "block";
-    if(who == "YOU WIN!"){
-        document. querySelector(".imgbox1").style.display = "block";
-    }
-    else if(who == "YOU LOSE!"){
+    if(who == "YOU LOSE!"){
         document. querySelector(".imgbox2").style.display = "block";
     }
     document. querySelector(".endgame .text").innerText = who;
